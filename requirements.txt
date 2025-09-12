@@ -1,0 +1,38 @@
+# Core ML and Data Processing
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.24.3
+nltk==3.8.1
+textblob==0.17.1
+
+# Web and Network
+requests==2.31.0
+beautifulsoup4==4.12.2
+urllib3==2.1.0
+dnspython==2.4.2
+whois==0.9.15
+
+# Email Processing
+email-validator==2.1.0
+phonenumbers==8.13.25
+
+# Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# Database
+sqlite3
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+
+# Security and Hashing
+cryptography==41.0.8
+hashlib
+
+# Additional Utilities
+python-dotenv==1.0.0
+joblib==1.3.2
+tqdm==4.66.1
