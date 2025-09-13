@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Analyzer - Smart Detection System</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🔗 URL Analyzer</h1>
+            <p>Check URLs for threats and reputation</p>
+            <a href="index.html" class="btn-secondary">← Back to Dashboard</a>
+        </header>
+
+        <div class="analyzer-section">
+            <div class="input-section">
+                <h2>Enter URL to Analyze</h2>
+                <form id="urlForm">
+                    <div class="form-group">
+                        <label for="urlInput">URL:</label>
+                        <input type="url" id="urlInput" placeholder="https://example.com" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Analyze URL</button>
+                </form>
+            </div>
+
+            <div class="results-section" id="results" style="display: none;">
+                <h2>Analysis Results</h2>
+                <div class="result-card" id="resultCard">
+                    <!-- Results will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/url-analyzer.js"></script>
+</body>
+</html>
