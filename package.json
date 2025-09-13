@@ -1,0 +1,16 @@
+{
+  "name": "smart-detection-system",
+  "version": "1.0.0",
+  "description": "Smart Detection System for malicious emails and URLs",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build completed'",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
