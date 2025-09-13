@@ -1,9 +1,10 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "echo 'Static site build complete'"
 
 [build.environment]
   PYTHON_VERSION = "3.11"
+  NODE_VERSION = "18"
 
 [[redirects]]
   from = "/*"
@@ -12,3 +13,8 @@
 
 [functions]
   directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[dev]
+  command = "netlify dev"
+  port = 8888

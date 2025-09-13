@@ -4,12 +4,10 @@
   "description": "Smart Detection System for malicious emails and URLs",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'Build completed'",
+    "build": "echo 'Static site build completed'",
     "dev": "netlify dev"
   },
-  "dependencies": {
-    "netlify-cli": "^17.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "netlify-cli": "^17.0.0"
   }
